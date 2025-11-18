@@ -77,7 +77,6 @@ pyparsing==3.2.5
 python-dateutil
 pytz==2025.2
 pywin32
-pywin32-ctypes==0.2.3
 pyzmq
 rdkit==2025.9.1
 readme_renderer==44.0
@@ -117,4 +116,5 @@ websocket-client==1.9.0
 xxhash==3.6.0
 yarl==1.22.0
 zipp==3.23.0
+
 
