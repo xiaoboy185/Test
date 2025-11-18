@@ -355,9 +355,7 @@ def standardize_features_global(data_list, scaler_rdkit):
 
 # Streamlit界面
 st.title(" OLED材料性质预测")
-st.image(r"C:\Users\DELL\Desktop\2.jpg",
-             caption="UV-Vis光谱示意图", 
-             use_container_width=True)
+
 st.markdown("""
 本工具可以预测OLED材料的两个关键性质：
 1. 吸收波长 (Absorption max - nm)
@@ -506,3 +504,4 @@ st.markdown("""
 
 注意：模型性能最佳的是训练集中出现过的化合物类型。
 """)
+
